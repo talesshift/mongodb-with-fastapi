@@ -10,24 +10,24 @@
         "machine learning"
     ],
     "topics": {
-        "5t_0,05a_0,005e": {
+        "nt5_alpha0,05_eta0,005": {
             "number_of_topics": 5,
             "alpha": 0.05,
             "eta": 0.005,
             "topics": [
                 {
-                    "topic": 1,
+                    "topic": 2,
                     "prob": 0.95294
                 }
             ]
         },
-        "10t_0,05a_0,005e": {
+        "nt10_alpha0,05_eta0,005": {
             "number_of_topics": 10,
             "alpha": 0.05,
             "eta": 0.005,
             "topics": [
                 {
-                    "topic": 5,
+                    "topic": 6,
                     "prob": 0.67778
                 },
                 {
@@ -36,598 +36,590 @@
                 }
             ]
         },
-        "20t_0,05a_0,005e": {
+        "nt20_alpha0,05_eta0,005": {
             "number_of_topics": 20,
             "alpha": 0.05,
             "eta": 0.005,
             "topics": [
                 {
-                    "topic": 12,
-                    "prob": 0.61
+                    "topic": 18,
+                    "prob": 0.41
                 },
                 {
-                    "topic": 4,
+                    "topic": 19,
+                    "prob": 0.21
+                },
+                {
+                    "topic": 5,
                     "prob": 0.21
                 }
             ]
         },
-        "40t_0,05a_0,005e": {
+        "nt40_alpha0,05_eta0,005": {
             "number_of_topics": 40,
             "alpha": 0.05,
             "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 28,
+                    "prob": 0.50833
+                },
+                {
+                    "topic": 9,
+                    "prob": 0.175
+                }
+            ]
+        },
+        "nt5_alpha0,05_eta0,01": {
+            "number_of_topics": 5,
+            "alpha": 0.05,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 4,
+                    "prob": 0.95294
+                }
+            ]
+        },
+        "nt10_alpha0,05_eta0,01": {
+            "number_of_topics": 10,
+            "alpha": 0.05,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 3,
+                    "prob": 0.9
+                }
+            ]
+        },
+        "nt20_alpha0,05_eta0,01": {
+            "number_of_topics": 20,
+            "alpha": 0.05,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 2,
+                    "prob": 0.81
+                }
+            ]
+        },
+        "nt40_alpha0,05_eta0,01": {
+            "number_of_topics": 40,
+            "alpha": 0.05,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.34167
+                },
+                {
+                    "topic": 17,
+                    "prob": 0.175
+                },
+                {
+                    "topic": 29,
+                    "prob": 0.175
+                }
+            ]
+        },
+        "nt5_alpha0,05_eta0,05": {
+            "number_of_topics": 5,
+            "alpha": 0.05,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.95294
+                }
+            ]
+        },
+        "nt10_alpha0,05_eta0,05": {
+            "number_of_topics": 10,
+            "alpha": 0.05,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 3,
+                    "prob": 0.67778
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.23333
+                }
+            ]
+        },
+        "nt20_alpha0,05_eta0,05": {
+            "number_of_topics": 20,
+            "alpha": 0.05,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 2,
+                    "prob": 0.81
+                }
+            ]
+        },
+        "nt40_alpha0,05_eta0,05": {
+            "number_of_topics": 40,
+            "alpha": 0.05,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 28,
+                    "prob": 0.50833
+                },
+                {
+                    "topic": 8,
+                    "prob": 0.175
+                }
+            ]
+        },
+        "nt5_alpha0,05_eta0,1": {
+            "number_of_topics": 5,
+            "alpha": 0.05,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 1,
+                    "prob": 0.95294
+                }
+            ]
+        },
+        "nt10_alpha0,05_eta0,1": {
+            "number_of_topics": 10,
+            "alpha": 0.05,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 1,
+                    "prob": 0.9
+                }
+            ]
+        },
+        "nt20_alpha0,05_eta0,1": {
+            "number_of_topics": 20,
+            "alpha": 0.05,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 2,
+                    "prob": 0.81
+                }
+            ]
+        },
+        "nt40_alpha0,05_eta0,1": {
+            "number_of_topics": 40,
+            "alpha": 0.05,
+            "eta": 0.1,
             "topics": [
                 {
                     "topic": 33,
                     "prob": 0.50833
                 },
                 {
-                    "topic": 2,
+                    "topic": 11,
                     "prob": 0.175
                 }
             ]
         },
-        "5t_0,05a_0,01e": {
+        "nt5_alpha0,1_eta0,005": {
             "number_of_topics": 5,
-            "alpha": 0.05,
-            "eta": 0.01,
+            "alpha": 0.1,
+            "eta": 0.005,
             "topics": [
                 {
-                    "topic": 1,
-                    "prob": 0.71765
-                },
-                {
-                    "topic": 0,
-                    "prob": 0.24706
-                }
-            ]
-        },
-        "10t_0,05a_0,01e": {
-            "number_of_topics": 10,
-            "alpha": 0.05,
-            "eta": 0.01,
-            "topics": [
-                {
-                    "topic": 5,
-                    "prob": 0.67778
+                    "topic": 3,
+                    "prob": 0.46667
                 },
                 {
                     "topic": 2,
-                    "prob": 0.23333
+                    "prob": 0.24444
+                },
+                {
+                    "topic": 4,
+                    "prob": 0.24444
                 }
             ]
         },
-        "20t_0,05a_0,01e": {
+        "nt10_alpha0,1_eta0,005": {
+            "number_of_topics": 10,
+            "alpha": 0.1,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 7,
+                    "prob": 0.62
+                },
+                {
+                    "topic": 3,
+                    "prob": 0.22
+                }
+            ]
+        },
+        "nt20_alpha0,1_eta0,005": {
             "number_of_topics": 20,
-            "alpha": 0.05,
+            "alpha": 0.1,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 2,
+                    "prob": 0.35
+                },
+                {
+                    "topic": 17,
+                    "prob": 0.18333
+                },
+                {
+                    "topic": 6,
+                    "prob": 0.18333
+                }
+            ]
+        },
+        "nt40_alpha0,1_eta0,005": {
+            "number_of_topics": 40,
+            "alpha": 0.1,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 20,
+                    "prob": 0.1375
+                },
+                {
+                    "topic": 4,
+                    "prob": 0.1375
+                },
+                {
+                    "topic": 15,
+                    "prob": 0.1375
+                },
+                {
+                    "topic": 25,
+                    "prob": 0.1375
+                }
+            ]
+        },
+        "nt5_alpha0,1_eta0,01": {
+            "number_of_topics": 5,
+            "alpha": 0.1,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 3,
+                    "prob": 0.91111
+                }
+            ]
+        },
+        "nt10_alpha0,1_eta0,01": {
+            "number_of_topics": 10,
+            "alpha": 0.1,
             "eta": 0.01,
             "topics": [
                 {
                     "topic": 4,
-                    "prob": 0.41
+                    "prob": 0.62
                 },
                 {
-                    "topic": 2,
-                    "prob": 0.21
-                },
-                {
-                    "topic": 12,
-                    "prob": 0.21
+                    "topic": 3,
+                    "prob": 0.22
                 }
             ]
         },
-        "40t_0,05a_0,01e": {
+        "nt20_alpha0,1_eta0,01": {
+            "number_of_topics": 20,
+            "alpha": 0.1,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 10,
+                    "prob": 0.51667
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.18333
+                }
+            ]
+        },
+        "nt40_alpha0,1_eta0,01": {
             "number_of_topics": 40,
-            "alpha": 0.05,
+            "alpha": 0.1,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 19,
+                    "prob": 0.1375
+                },
+                {
+                    "topic": 22,
+                    "prob": 0.1375
+                },
+                {
+                    "topic": 4,
+                    "prob": 0.1375
+                },
+                {
+                    "topic": 18,
+                    "prob": 0.1375
+                }
+            ]
+        },
+        "nt5_alpha0,1_eta0,05": {
+            "number_of_topics": 5,
+            "alpha": 0.1,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 4,
+                    "prob": 0.68889
+                },
+                {
+                    "topic": 3,
+                    "prob": 0.24444
+                }
+            ]
+        },
+        "nt10_alpha0,1_eta0,05": {
+            "number_of_topics": 10,
+            "alpha": 0.1,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 3,
+                    "prob": 0.82
+                }
+            ]
+        },
+        "nt20_alpha0,1_eta0,05": {
+            "number_of_topics": 20,
+            "alpha": 0.1,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 4,
+                    "prob": 0.68333
+                }
+            ]
+        },
+        "nt40_alpha0,1_eta0,05": {
+            "number_of_topics": 40,
+            "alpha": 0.1,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 29,
+                    "prob": 0.2625
+                },
+                {
+                    "topic": 4,
+                    "prob": 0.1375
+                },
+                {
+                    "topic": 7,
+                    "prob": 0.1375
+                }
+            ]
+        },
+        "nt5_alpha0,1_eta0,1": {
+            "number_of_topics": 5,
+            "alpha": 0.1,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 3,
+                    "prob": 0.91111
+                }
+            ]
+        },
+        "nt10_alpha0,1_eta0,1": {
+            "number_of_topics": 10,
+            "alpha": 0.1,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 8,
+                    "prob": 0.62
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.22
+                }
+            ]
+        },
+        "nt20_alpha0,1_eta0,1": {
+            "number_of_topics": 20,
+            "alpha": 0.1,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.35
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.35
+                }
+            ]
+        },
+        "nt40_alpha0,1_eta0,1": {
+            "number_of_topics": 40,
+            "alpha": 0.1,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 19,
+                    "prob": 0.1375
+                },
+                {
+                    "topic": 34,
+                    "prob": 0.1375
+                },
+                {
+                    "topic": 13,
+                    "prob": 0.1375
+                },
+                {
+                    "topic": 8,
+                    "prob": 0.1375
+                }
+            ]
+        },
+        "nt5_alpha0,5_eta0,005": {
+            "number_of_topics": 5,
+            "alpha": 0.5,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 2,
+                    "prob": 0.53846
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.23077
+                }
+            ]
+        },
+        "nt10_alpha0,5_eta0,005": {
+            "number_of_topics": 10,
+            "alpha": 0.5,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.27778
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.16667
+                },
+                {
+                    "topic": 6,
+                    "prob": 0.16667
+                }
+            ]
+        },
+        "nt20_alpha0,5_eta0,005": {
+            "number_of_topics": 20,
+            "alpha": 0.5,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 11,
+                    "prob": 0.17857
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.10714
+                },
+                {
+                    "topic": 7,
+                    "prob": 0.10714
+                }
+            ]
+        },
+        "nt40_alpha0,5_eta0,005": {
+            "number_of_topics": 40,
+            "alpha": 0.5,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 21,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 4,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 5,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 28,
+                    "prob": 0.0625
+                }
+            ]
+        },
+        "nt5_alpha0,5_eta0,01": {
+            "number_of_topics": 5,
+            "alpha": 0.5,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 2,
+                    "prob": 0.53846
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.23077
+                }
+            ]
+        },
+        "nt10_alpha0,5_eta0,01": {
+            "number_of_topics": 10,
+            "alpha": 0.5,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 1,
+                    "prob": 0.16667
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.16667
+                },
+                {
+                    "topic": 7,
+                    "prob": 0.16667
+                },
+                {
+                    "topic": 8,
+                    "prob": 0.16667
+                }
+            ]
+        },
+        "nt20_alpha0,5_eta0,01": {
+            "number_of_topics": 20,
+            "alpha": 0.5,
             "eta": 0.01,
             "topics": [
                 {
                     "topic": 9,
-                    "prob": 0.34167
-                },
-                {
-                    "topic": 24,
-                    "prob": 0.175
-                },
-                {
-                    "topic": 6,
-                    "prob": 0.175
-                }
-            ]
-        },
-        "5t_0,05a_0,05e": {
-            "number_of_topics": 5,
-            "alpha": 0.05,
-            "eta": 0.05,
-            "topics": [
-                {
-                    "topic": 3,
-                    "prob": 0.95294
-                }
-            ]
-        },
-        "10t_0,05a_0,05e": {
-            "number_of_topics": 10,
-            "alpha": 0.05,
-            "eta": 0.05,
-            "topics": [
-                {
-                    "topic": 5,
-                    "prob": 0.67778
-                },
-                {
-                    "topic": 3,
-                    "prob": 0.23333
-                }
-            ]
-        },
-        "20t_0,05a_0,05e": {
-            "number_of_topics": 20,
-            "alpha": 0.05,
-            "eta": 0.05,
-            "topics": [
-                {
-                    "topic": 1,
-                    "prob": 0.61
-                },
-                {
-                    "topic": 13,
-                    "prob": 0.21
-                }
-            ]
-        },
-        "40t_0,05a_0,05e": {
-            "number_of_topics": 40,
-            "alpha": 0.05,
-            "eta": 0.05,
-            "topics": [
-                {
-                    "topic": 7,
-                    "prob": 0.675
-                }
-            ]
-        },
-        "5t_0,05a_0,1e": {
-            "number_of_topics": 5,
-            "alpha": 0.05,
-            "eta": 0.1,
-            "topics": [
-                {
-                    "topic": 2,
-                    "prob": 0.95294
-                }
-            ]
-        },
-        "10t_0,05a_0,1e": {
-            "number_of_topics": 10,
-            "alpha": 0.05,
-            "eta": 0.1,
-            "topics": [
-                {
-                    "topic": 7,
-                    "prob": 0.67778
-                },
-                {
-                    "topic": 2,
-                    "prob": 0.23333
-                }
-            ]
-        },
-        "20t_0,05a_0,1e": {
-            "number_of_topics": 20,
-            "alpha": 0.05,
-            "eta": 0.1,
-            "topics": [
-                {
-                    "topic": 2,
-                    "prob": 0.61
-                },
-                {
-                    "topic": 13,
-                    "prob": 0.21
-                }
-            ]
-        },
-        "40t_0,05a_0,1e": {
-            "number_of_topics": 40,
-            "alpha": 0.05,
-            "eta": 0.1,
-            "topics": [
-                {
-                    "topic": 34,
-                    "prob": 0.34167
-                },
-                {
-                    "topic": 33,
-                    "prob": 0.175
-                },
-                {
-                    "topic": 6,
-                    "prob": 0.175
-                }
-            ]
-        },
-        "5t_0,1a_0,005e": {
-            "number_of_topics": 5,
-            "alpha": 0.1,
-            "eta": 0.005,
-            "topics": [
-                {
-                    "topic": 0,
-                    "prob": 0.91111
-                }
-            ]
-        },
-        "10t_0,1a_0,005e": {
-            "number_of_topics": 10,
-            "alpha": 0.1,
-            "eta": 0.005,
-            "topics": [
-                {
-                    "topic": 7,
-                    "prob": 0.62
-                },
-                {
-                    "topic": 2,
-                    "prob": 0.22
-                }
-            ]
-        },
-        "20t_0,1a_0,005e": {
-            "number_of_topics": 20,
-            "alpha": 0.1,
-            "eta": 0.005,
-            "topics": [
-                {
-                    "topic": 3,
-                    "prob": 0.18333
-                },
-                {
-                    "topic": 14,
-                    "prob": 0.18333
-                },
-                {
-                    "topic": 8,
-                    "prob": 0.18333
-                },
-                {
-                    "topic": 10,
-                    "prob": 0.18333
-                }
-            ]
-        },
-        "40t_0,1a_0,005e": {
-            "number_of_topics": 40,
-            "alpha": 0.1,
-            "eta": 0.005,
-            "topics": [
-                {
-                    "topic": 23,
-                    "prob": 0.2625
-                },
-                {
-                    "topic": 36,
-                    "prob": 0.1375
-                },
-                {
-                    "topic": 4,
-                    "prob": 0.1375
-                }
-            ]
-        },
-        "5t_0,1a_0,01e": {
-            "number_of_topics": 5,
-            "alpha": 0.1,
-            "eta": 0.01,
-            "topics": [
-                {
-                    "topic": 0,
-                    "prob": 0.91111
-                }
-            ]
-        },
-        "10t_0,1a_0,01e": {
-            "number_of_topics": 10,
-            "alpha": 0.1,
-            "eta": 0.01,
-            "topics": [
-                {
-                    "topic": 7,
-                    "prob": 0.62
-                },
-                {
-                    "topic": 3,
-                    "prob": 0.22
-                }
-            ]
-        },
-        "20t_0,1a_0,01e": {
-            "number_of_topics": 20,
-            "alpha": 0.1,
-            "eta": 0.01,
-            "topics": [
-                {
-                    "topic": 17,
-                    "prob": 0.51667
-                },
-                {
-                    "topic": 0,
-                    "prob": 0.18333
-                }
-            ]
-        },
-        "40t_0,1a_0,01e": {
-            "number_of_topics": 40,
-            "alpha": 0.1,
-            "eta": 0.01,
-            "topics": [
-                {
-                    "topic": 0,
-                    "prob": 0.2625
-                },
-                {
-                    "topic": 22,
-                    "prob": 0.1375
-                },
-                {
-                    "topic": 2,
-                    "prob": 0.1375
-                }
-            ]
-        },
-        "5t_0,1a_0,05e": {
-            "number_of_topics": 5,
-            "alpha": 0.1,
-            "eta": 0.05,
-            "topics": [
-                {
-                    "topic": 2,
-                    "prob": 0.91111
-                }
-            ]
-        },
-        "10t_0,1a_0,05e": {
-            "number_of_topics": 10,
-            "alpha": 0.1,
-            "eta": 0.05,
-            "topics": [
-                {
-                    "topic": 1,
-                    "prob": 0.62
-                },
-                {
-                    "topic": 0,
-                    "prob": 0.22
-                }
-            ]
-        },
-        "20t_0,1a_0,05e": {
-            "number_of_topics": 20,
-            "alpha": 0.1,
-            "eta": 0.05,
-            "topics": [
-                {
-                    "topic": 17,
-                    "prob": 0.51667
-                },
-                {
-                    "topic": 2,
-                    "prob": 0.18333
-                }
-            ]
-        },
-        "40t_0,1a_0,05e": {
-            "number_of_topics": 40,
-            "alpha": 0.1,
-            "eta": 0.05,
-            "topics": [
-                {
-                    "topic": 16,
-                    "prob": 0.2625
-                },
-                {
-                    "topic": 23,
-                    "prob": 0.1375
-                },
-                {
-                    "topic": 5,
-                    "prob": 0.1375
-                }
-            ]
-        },
-        "5t_0,1a_0,1e": {
-            "number_of_topics": 5,
-            "alpha": 0.1,
-            "eta": 0.1,
-            "topics": [
-                {
-                    "topic": 1,
-                    "prob": 0.91111
-                }
-            ]
-        },
-        "10t_0,1a_0,1e": {
-            "number_of_topics": 10,
-            "alpha": 0.1,
-            "eta": 0.1,
-            "topics": [
-                {
-                    "topic": 5,
-                    "prob": 0.62
-                },
-                {
-                    "topic": 3,
-                    "prob": 0.22
-                }
-            ]
-        },
-        "20t_0,1a_0,1e": {
-            "number_of_topics": 20,
-            "alpha": 0.1,
-            "eta": 0.1,
-            "topics": [
-                {
-                    "topic": 14,
-                    "prob": 0.51667
-                },
-                {
-                    "topic": 3,
-                    "prob": 0.18333
-                }
-            ]
-        },
-        "40t_0,1a_0,1e": {
-            "number_of_topics": 40,
-            "alpha": 0.1,
-            "eta": 0.1,
-            "topics": [
-                {
-                    "topic": 23,
-                    "prob": 0.3875
-                },
-                {
-                    "topic": 6,
-                    "prob": 0.1375
-                }
-            ]
-        },
-        "5t_0,5a_0,005e": {
-            "number_of_topics": 5,
-            "alpha": 0.5,
-            "eta": 0.005,
-            "topics": [
-                {
-                    "topic": 0,
-                    "prob": 0.23077
-                },
-                {
-                    "topic": 1,
-                    "prob": 0.23077
-                },
-                {
-                    "topic": 2,
-                    "prob": 0.23077
-                },
-                {
-                    "topic": 3,
-                    "prob": 0.23077
-                }
-            ]
-        },
-        "10t_0,5a_0,005e": {
-            "number_of_topics": 10,
-            "alpha": 0.5,
-            "eta": 0.005,
-            "topics": [
-                {
-                    "topic": 1,
-                    "prob": 0.27778
-                },
-                {
-                    "topic": 7,
-                    "prob": 0.27778
-                }
-            ]
-        },
-        "20t_0,5a_0,005e": {
-            "number_of_topics": 20,
-            "alpha": 0.5,
-            "eta": 0.005,
-            "topics": [
-                {
-                    "topic": 6,
-                    "prob": 0.17857
-                },
-                {
-                    "topic": 0,
                     "prob": 0.10714
                 },
                 {
-                    "topic": 17,
+                    "topic": 1,
+                    "prob": 0.10714
+                },
+                {
+                    "topic": 7,
+                    "prob": 0.10714
+                },
+                {
+                    "topic": 11,
                     "prob": 0.10714
                 }
             ]
         },
-        "40t_0,5a_0,005e": {
-            "number_of_topics": 40,
-            "alpha": 0.5,
-            "eta": 0.005,
-            "topics": [
-                {
-                    "topic": 0,
-                    "prob": 0.0625
-                },
-                {
-                    "topic": 22,
-                    "prob": 0.0625
-                },
-                {
-                    "topic": 15,
-                    "prob": 0.0625
-                },
-                {
-                    "topic": 20,
-                    "prob": 0.0625
-                }
-            ]
-        },
-        "5t_0,5a_0,01e": {
-            "number_of_topics": 5,
-            "alpha": 0.5,
-            "eta": 0.01,
-            "topics": [
-                {
-                    "topic": 2,
-                    "prob": 0.38462
-                },
-                {
-                    "topic": 0,
-                    "prob": 0.23077
-                },
-                {
-                    "topic": 3,
-                    "prob": 0.23077
-                }
-            ]
-        },
-        "10t_0,5a_0,01e": {
-            "number_of_topics": 10,
-            "alpha": 0.5,
-            "eta": 0.01,
-            "topics": [
-                {
-                    "topic": 7,
-                    "prob": 0.27778
-                },
-                {
-                    "topic": 0,
-                    "prob": 0.16667
-                },
-                {
-                    "topic": 4,
-                    "prob": 0.16667
-                }
-            ]
-        },
-        "20t_0,5a_0,01e": {
-            "number_of_topics": 20,
-            "alpha": 0.5,
-            "eta": 0.01,
-            "topics": [
-                {
-                    "topic": 12,
-                    "prob": 0.17857
-                },
-                {
-                    "topic": 2,
-                    "prob": 0.10714
-                },
-                {
-                    "topic": 13,
-                    "prob": 0.10714
-                }
-            ]
-        },
-        "40t_0,5a_0,01e": {
+        "nt40_alpha0,5_eta0,01": {
             "number_of_topics": 40,
             "alpha": 0.5,
             "eta": 0.01,
@@ -637,20 +629,20 @@
                     "prob": 0.0625
                 },
                 {
-                    "topic": 2,
+                    "topic": 1,
                     "prob": 0.0625
                 },
                 {
-                    "topic": 15,
+                    "topic": 27,
                     "prob": 0.0625
                 },
                 {
-                    "topic": 26,
+                    "topic": 29,
                     "prob": 0.0625
                 }
             ]
         },
-        "5t_0,5a_0,05e": {
+        "nt5_alpha0,5_eta0,05": {
             "number_of_topics": 5,
             "alpha": 0.5,
             "eta": 0.05,
@@ -661,94 +653,14 @@
                 }
             ]
         },
-        "10t_0,5a_0,05e": {
+        "nt10_alpha0,5_eta0,05": {
             "number_of_topics": 10,
             "alpha": 0.5,
             "eta": 0.05,
             "topics": [
-                {
-                    "topic": 4,
-                    "prob": 0.38889
-                },
-                {
-                    "topic": 0,
-                    "prob": 0.16667
-                }
-            ]
-        },
-        "20t_0,5a_0,05e": {
-            "number_of_topics": 20,
-            "alpha": 0.5,
-            "eta": 0.05,
-            "topics": [
-                {
-                    "topic": 0,
-                    "prob": 0.10714
-                },
-                {
-                    "topic": 14,
-                    "prob": 0.10714
-                },
-                {
-                    "topic": 13,
-                    "prob": 0.10714
-                },
-                {
-                    "topic": 7,
-                    "prob": 0.10714
-                }
-            ]
-        },
-        "40t_0,5a_0,05e": {
-            "number_of_topics": 40,
-            "alpha": 0.5,
-            "eta": 0.05,
-            "topics": [
-                {
-                    "topic": 24,
-                    "prob": 0.0625
-                },
-                {
-                    "topic": 4,
-                    "prob": 0.0625
-                },
-                {
-                    "topic": 25,
-                    "prob": 0.0625
-                },
-                {
-                    "topic": 28,
-                    "prob": 0.0625
-                }
-            ]
-        },
-        "5t_0,5a_0,1e": {
-            "number_of_topics": 5,
-            "alpha": 0.5,
-            "eta": 0.1,
-            "topics": [
-                {
-                    "topic": 0,
-                    "prob": 0.53846
-                },
                 {
                     "topic": 1,
-                    "prob": 0.23077
-                }
-            ]
-        },
-        "10t_0,5a_0,1e": {
-            "number_of_topics": 10,
-            "alpha": 0.5,
-            "eta": 0.1,
-            "topics": [
-                {
-                    "topic": 0,
-                    "prob": 0.16667
-                },
-                {
-                    "topic": 2,
-                    "prob": 0.16667
+                    "prob": 0.27778
                 },
                 {
                     "topic": 5,
@@ -760,64 +672,136 @@
                 }
             ]
         },
-        "20t_0,5a_0,1e": {
+        "nt20_alpha0,5_eta0,05": {
+            "number_of_topics": 20,
+            "alpha": 0.5,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 1,
+                    "prob": 0.10714
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.10714
+                },
+                {
+                    "topic": 8,
+                    "prob": 0.10714
+                },
+                {
+                    "topic": 12,
+                    "prob": 0.10714
+                }
+            ]
+        },
+        "nt40_alpha0,5_eta0,05": {
+            "number_of_topics": 40,
+            "alpha": 0.5,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 2,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 34,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 26,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 27,
+                    "prob": 0.0625
+                }
+            ]
+        },
+        "nt5_alpha0,5_eta0,1": {
+            "number_of_topics": 5,
+            "alpha": 0.5,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.53846
+                },
+                {
+                    "topic": 3,
+                    "prob": 0.23077
+                }
+            ]
+        },
+        "nt10_alpha0,5_eta0,1": {
+            "number_of_topics": 10,
+            "alpha": 0.5,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 3,
+                    "prob": 0.27778
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.16667
+                },
+                {
+                    "topic": 5,
+                    "prob": 0.16667
+                }
+            ]
+        },
+        "nt20_alpha0,5_eta0,1": {
             "number_of_topics": 20,
             "alpha": 0.5,
             "eta": 0.1,
             "topics": [
                 {
-                    "topic": 0,
+                    "topic": 12,
+                    "prob": 0.17857
+                },
+                {
+                    "topic": 2,
                     "prob": 0.10714
                 },
                 {
-                    "topic": 14,
-                    "prob": 0.10714
-                },
-                {
-                    "topic": 10,
-                    "prob": 0.10714
-                },
-                {
-                    "topic": 9,
+                    "topic": 8,
                     "prob": 0.10714
                 }
             ]
         },
-        "40t_0,5a_0,1e": {
+        "nt40_alpha0,5_eta0,1": {
             "number_of_topics": 40,
             "alpha": 0.5,
             "eta": 0.1,
             "topics": [
                 {
-                    "topic": 0,
+                    "topic": 1,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 15,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 27,
                     "prob": 0.0625
                 },
                 {
                     "topic": 28,
                     "prob": 0.0625
-                },
-                {
-                    "topic": 31,
-                    "prob": 0.0625
-                },
-                {
-                    "topic": 20,
-                    "prob": 0.0625
                 }
             ]
         },
-        "5t_0,9a_0,005e": {
+        "nt5_alpha0,9_eta0,005": {
             "number_of_topics": 5,
             "alpha": 0.9,
             "eta": 0.005,
             "topics": [
                 {
                     "topic": 2,
-                    "prob": 0.34118
-                },
-                {
-                    "topic": 0,
-                    "prob": 0.22353
+                    "prob": 0.45882
                 },
                 {
                     "topic": 1,
@@ -825,13 +809,257 @@
                 }
             ]
         },
-        "10t_0,9a_0,005e": {
+        "nt10_alpha0,9_eta0,005": {
             "number_of_topics": 10,
             "alpha": 0.9,
             "eta": 0.005,
             "topics": [
                 {
+                    "topic": 1,
+                    "prob": 0.14615
+                },
+                {
+                    "topic": 4,
+                    "prob": 0.14615
+                },
+                {
+                    "topic": 5,
+                    "prob": 0.14615
+                },
+                {
+                    "topic": 6,
+                    "prob": 0.14615
+                }
+            ]
+        },
+        "nt20_alpha0,9_eta0,005": {
+            "number_of_topics": 20,
+            "alpha": 0.9,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 9,
+                    "prob": 0.08636
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.08636
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.08636
+                },
+                {
+                    "topic": 8,
+                    "prob": 0.08636
+                }
+            ]
+        },
+        "nt40_alpha0,9_eta0,005": {
+            "number_of_topics": 40,
+            "alpha": 0.9,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 9,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 23,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 3,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 25,
+                    "prob": 0.0475
+                }
+            ]
+        },
+        "nt5_alpha0,9_eta0,01": {
+            "number_of_topics": 5,
+            "alpha": 0.9,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 1,
+                    "prob": 0.34118
+                },
+                {
+                    "topic": 0,
+                    "prob": 0.22353
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.22353
+                }
+            ]
+        },
+        "nt10_alpha0,9_eta0,01": {
+            "number_of_topics": 10,
+            "alpha": 0.9,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 1,
+                    "prob": 0.14615
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.14615
+                },
+                {
+                    "topic": 5,
+                    "prob": 0.14615
+                },
+                {
                     "topic": 7,
+                    "prob": 0.14615
+                }
+            ]
+        },
+        "nt20_alpha0,9_eta0,01": {
+            "number_of_topics": 20,
+            "alpha": 0.9,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 2,
+                    "prob": 0.13182
+                },
+                {
+                    "topic": 9,
+                    "prob": 0.08636
+                },
+                {
+                    "topic": 10,
+                    "prob": 0.08636
+                }
+            ]
+        },
+        "nt40_alpha0,9_eta0,01": {
+            "number_of_topics": 40,
+            "alpha": 0.9,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 21,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 23,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 15,
+                    "prob": 0.0475
+                }
+            ]
+        },
+        "nt5_alpha0,9_eta0,05": {
+            "number_of_topics": 5,
+            "alpha": 0.9,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 2,
+                    "prob": 0.45882
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.22353
+                }
+            ]
+        },
+        "nt10_alpha0,9_eta0,05": {
+            "number_of_topics": 10,
+            "alpha": 0.9,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 4,
+                    "prob": 0.22308
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.14615
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.14615
+                }
+            ]
+        },
+        "nt20_alpha0,9_eta0,05": {
+            "number_of_topics": 20,
+            "alpha": 0.9,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 11,
+                    "prob": 0.13182
+                },
+                {
+                    "topic": 17,
+                    "prob": 0.08636
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.08636
+                }
+            ]
+        },
+        "nt40_alpha0,9_eta0,05": {
+            "number_of_topics": 40,
+            "alpha": 0.9,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 18,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 17,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 3,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 28,
+                    "prob": 0.0475
+                }
+            ]
+        },
+        "nt5_alpha0,9_eta0,1": {
+            "number_of_topics": 5,
+            "alpha": 0.9,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.45882
+                },
+                {
+                    "topic": 3,
+                    "prob": 0.22353
+                }
+            ]
+        },
+        "nt10_alpha0,9_eta0,1": {
+            "number_of_topics": 10,
+            "alpha": 0.9,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 8,
                     "prob": 0.22308
                 },
                 {
@@ -844,32 +1072,36 @@
                 }
             ]
         },
-        "20t_0,9a_0,005e": {
+        "nt20_alpha0,9_eta0,1": {
             "number_of_topics": 20,
             "alpha": 0.9,
-            "eta": 0.005,
+            "eta": 0.1,
             "topics": [
                 {
-                    "topic": 9,
-                    "prob": 0.13182
-                },
-                {
-                    "topic": 11,
+                    "topic": 1,
                     "prob": 0.08636
                 },
                 {
-                    "topic": 0,
+                    "topic": 13,
+                    "prob": 0.08636
+                },
+                {
+                    "topic": 12,
+                    "prob": 0.08636
+                },
+                {
+                    "topic": 8,
                     "prob": 0.08636
                 }
             ]
         },
-        "40t_0,9a_0,005e": {
+        "nt40_alpha0,9_eta0,1": {
             "number_of_topics": 40,
             "alpha": 0.9,
-            "eta": 0.005,
+            "eta": 0.1,
             "topics": [
                 {
-                    "topic": 0,
+                    "topic": 1,
                     "prob": 0.0475
                 },
                 {
@@ -881,243 +1113,7 @@
                     "prob": 0.0475
                 },
                 {
-                    "topic": 28,
-                    "prob": 0.0475
-                }
-            ]
-        },
-        "5t_0,9a_0,01e": {
-            "number_of_topics": 5,
-            "alpha": 0.9,
-            "eta": 0.01,
-            "topics": [
-                {
-                    "topic": 2,
-                    "prob": 0.34118
-                },
-                {
-                    "topic": 0,
-                    "prob": 0.22353
-                },
-                {
-                    "topic": 1,
-                    "prob": 0.22353
-                }
-            ]
-        },
-        "10t_0,9a_0,01e": {
-            "number_of_topics": 10,
-            "alpha": 0.9,
-            "eta": 0.01,
-            "topics": [
-                {
-                    "topic": 1,
-                    "prob": 0.22308
-                },
-                {
-                    "topic": 2,
-                    "prob": 0.14615
-                },
-                {
-                    "topic": 5,
-                    "prob": 0.14615
-                }
-            ]
-        },
-        "20t_0,9a_0,01e": {
-            "number_of_topics": 20,
-            "alpha": 0.9,
-            "eta": 0.01,
-            "topics": [
-                {
-                    "topic": 10,
-                    "prob": 0.13182
-                },
-                {
-                    "topic": 0,
-                    "prob": 0.08636
-                },
-                {
-                    "topic": 14,
-                    "prob": 0.08636
-                }
-            ]
-        },
-        "40t_0,9a_0,01e": {
-            "number_of_topics": 40,
-            "alpha": 0.9,
-            "eta": 0.01,
-            "topics": [
-                {
-                    "topic": 1,
-                    "prob": 0.0475
-                },
-                {
-                    "topic": 22,
-                    "prob": 0.0475
-                },
-                {
-                    "topic": 23,
-                    "prob": 0.0475
-                },
-                {
-                    "topic": 28,
-                    "prob": 0.0475
-                }
-            ]
-        },
-        "5t_0,9a_0,05e": {
-            "number_of_topics": 5,
-            "alpha": 0.9,
-            "eta": 0.05,
-            "topics": [
-                {
-                    "topic": 0,
-                    "prob": 0.22353
-                },
-                {
-                    "topic": 1,
-                    "prob": 0.22353
-                },
-                {
-                    "topic": 2,
-                    "prob": 0.22353
-                },
-                {
-                    "topic": 3,
-                    "prob": 0.22353
-                }
-            ]
-        },
-        "10t_0,9a_0,05e": {
-            "number_of_topics": 10,
-            "alpha": 0.9,
-            "eta": 0.05,
-            "topics": [
-                {
-                    "topic": 8,
-                    "prob": 0.3
-                },
-                {
-                    "topic": 1,
-                    "prob": 0.14615
-                }
-            ]
-        },
-        "20t_0,9a_0,05e": {
-            "number_of_topics": 20,
-            "alpha": 0.9,
-            "eta": 0.05,
-            "topics": [
-                {
-                    "topic": 0,
-                    "prob": 0.08636
-                },
-                {
-                    "topic": 14,
-                    "prob": 0.08636
-                },
-                {
-                    "topic": 12,
-                    "prob": 0.08636
-                },
-                {
-                    "topic": 7,
-                    "prob": 0.08636
-                }
-            ]
-        },
-        "40t_0,9a_0,05e": {
-            "number_of_topics": 40,
-            "alpha": 0.9,
-            "eta": 0.05,
-            "topics": [
-                {
-                    "topic": 30,
-                    "prob": 0.0725
-                },
-                {
-                    "topic": 0,
-                    "prob": 0.0475
-                },
-                {
-                    "topic": 36,
-                    "prob": 0.0475
-                }
-            ]
-        },
-        "5t_0,9a_0,1e": {
-            "number_of_topics": 5,
-            "alpha": 0.9,
-            "eta": 0.1,
-            "topics": [
-                {
-                    "topic": 3,
-                    "prob": 0.45882
-                },
-                {
-                    "topic": 1,
-                    "prob": 0.22353
-                }
-            ]
-        },
-        "10t_0,9a_0,1e": {
-            "number_of_topics": 10,
-            "alpha": 0.9,
-            "eta": 0.1,
-            "topics": [
-                {
-                    "topic": 4,
-                    "prob": 0.22308
-                },
-                {
-                    "topic": 0,
-                    "prob": 0.14615
-                },
-                {
-                    "topic": 5,
-                    "prob": 0.14615
-                }
-            ]
-        },
-        "20t_0,9a_0,1e": {
-            "number_of_topics": 20,
-            "alpha": 0.9,
-            "eta": 0.1,
-            "topics": [
-                {
-                    "topic": 0,
-                    "prob": 0.08636
-                },
-                {
-                    "topic": 17,
-                    "prob": 0.08636
-                },
-                {
-                    "topic": 12,
-                    "prob": 0.08636
-                },
-                {
-                    "topic": 10,
-                    "prob": 0.08636
-                }
-            ]
-        },
-        "40t_0,9a_0,1e": {
-            "number_of_topics": 40,
-            "alpha": 0.9,
-            "eta": 0.1,
-            "topics": [
-                {
-                    "topic": 32,
-                    "prob": 0.0725
-                },
-                {
-                    "topic": 2,
-                    "prob": 0.0475
-                },
-                {
-                    "topic": 23,
+                    "topic": 21,
                     "prob": 0.0475
                 }
             ]
