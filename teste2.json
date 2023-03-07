@@ -1,0 +1,55 @@
+{
+    "_id": 10000,
+    "txt_id": 6,
+    "path": "./pdf/0001/0001008v3.tei.xml",
+    "phrase": "this is the traditional machine learning problem.",
+    "lenght": 49,
+    "section": "text",
+    "a_id": 885,
+    "match_word": [
+        "machine learning"
+    ],
+    "topics": {
+        "5t_0,05a_0,005e": {
+            "number_of_topics": 5,
+            "alpha": 0.05,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 1,
+                    "prob": 0.95294
+                }
+            ]
+        },
+        "10t_0,05a_0,005e": {
+            "number_of_topics": 10,
+            "alpha": 0.05,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 5,
+                    "prob": 0.67778
+                },
+                {
+                    "topic": 3,
+                    "prob": 0.23333
+                }
+            ]
+        },
+        "20t_0,05a_0,005e": {
+            "number_of_topics": 20,
+            "alpha": 0.05,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 12,
+                    "prob": 0.61
+                },
+                {
+                    "topic": 4,
+                    "prob": 0.21
+                }
+            ]
+        }
+    }
+}

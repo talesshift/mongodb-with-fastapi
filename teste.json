@@ -1,0 +1,1126 @@
+{
+    "_id": 0,
+    "txt_id": 6,
+    "path": "./pdf/0001/0001008v3.tei.xml",
+    "phrase": "this is the traditional machine learning problem.",
+    "lenght": 49,
+    "section": "text",
+    "a_id": 885,
+    "match_word": [
+        "machine learning"
+    ],
+    "topics": {
+        "5t_0,05a_0,005e": {
+            "number_of_topics": 5,
+            "alpha": 0.05,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 1,
+                    "prob": 0.95294
+                }
+            ]
+        },
+        "10t_0,05a_0,005e": {
+            "number_of_topics": 10,
+            "alpha": 0.05,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 5,
+                    "prob": 0.67778
+                },
+                {
+                    "topic": 3,
+                    "prob": 0.23333
+                }
+            ]
+        },
+        "20t_0,05a_0,005e": {
+            "number_of_topics": 20,
+            "alpha": 0.05,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 12,
+                    "prob": 0.61
+                },
+                {
+                    "topic": 4,
+                    "prob": 0.21
+                }
+            ]
+        },
+        "40t_0,05a_0,005e": {
+            "number_of_topics": 40,
+            "alpha": 0.05,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 33,
+                    "prob": 0.50833
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.175
+                }
+            ]
+        },
+        "5t_0,05a_0,01e": {
+            "number_of_topics": 5,
+            "alpha": 0.05,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 1,
+                    "prob": 0.71765
+                },
+                {
+                    "topic": 0,
+                    "prob": 0.24706
+                }
+            ]
+        },
+        "10t_0,05a_0,01e": {
+            "number_of_topics": 10,
+            "alpha": 0.05,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 5,
+                    "prob": 0.67778
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.23333
+                }
+            ]
+        },
+        "20t_0,05a_0,01e": {
+            "number_of_topics": 20,
+            "alpha": 0.05,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 4,
+                    "prob": 0.41
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.21
+                },
+                {
+                    "topic": 12,
+                    "prob": 0.21
+                }
+            ]
+        },
+        "40t_0,05a_0,01e": {
+            "number_of_topics": 40,
+            "alpha": 0.05,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 9,
+                    "prob": 0.34167
+                },
+                {
+                    "topic": 24,
+                    "prob": 0.175
+                },
+                {
+                    "topic": 6,
+                    "prob": 0.175
+                }
+            ]
+        },
+        "5t_0,05a_0,05e": {
+            "number_of_topics": 5,
+            "alpha": 0.05,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 3,
+                    "prob": 0.95294
+                }
+            ]
+        },
+        "10t_0,05a_0,05e": {
+            "number_of_topics": 10,
+            "alpha": 0.05,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 5,
+                    "prob": 0.67778
+                },
+                {
+                    "topic": 3,
+                    "prob": 0.23333
+                }
+            ]
+        },
+        "20t_0,05a_0,05e": {
+            "number_of_topics": 20,
+            "alpha": 0.05,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 1,
+                    "prob": 0.61
+                },
+                {
+                    "topic": 13,
+                    "prob": 0.21
+                }
+            ]
+        },
+        "40t_0,05a_0,05e": {
+            "number_of_topics": 40,
+            "alpha": 0.05,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 7,
+                    "prob": 0.675
+                }
+            ]
+        },
+        "5t_0,05a_0,1e": {
+            "number_of_topics": 5,
+            "alpha": 0.05,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 2,
+                    "prob": 0.95294
+                }
+            ]
+        },
+        "10t_0,05a_0,1e": {
+            "number_of_topics": 10,
+            "alpha": 0.05,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 7,
+                    "prob": 0.67778
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.23333
+                }
+            ]
+        },
+        "20t_0,05a_0,1e": {
+            "number_of_topics": 20,
+            "alpha": 0.05,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 2,
+                    "prob": 0.61
+                },
+                {
+                    "topic": 13,
+                    "prob": 0.21
+                }
+            ]
+        },
+        "40t_0,05a_0,1e": {
+            "number_of_topics": 40,
+            "alpha": 0.05,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 34,
+                    "prob": 0.34167
+                },
+                {
+                    "topic": 33,
+                    "prob": 0.175
+                },
+                {
+                    "topic": 6,
+                    "prob": 0.175
+                }
+            ]
+        },
+        "5t_0,1a_0,005e": {
+            "number_of_topics": 5,
+            "alpha": 0.1,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.91111
+                }
+            ]
+        },
+        "10t_0,1a_0,005e": {
+            "number_of_topics": 10,
+            "alpha": 0.1,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 7,
+                    "prob": 0.62
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.22
+                }
+            ]
+        },
+        "20t_0,1a_0,005e": {
+            "number_of_topics": 20,
+            "alpha": 0.1,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 3,
+                    "prob": 0.18333
+                },
+                {
+                    "topic": 14,
+                    "prob": 0.18333
+                },
+                {
+                    "topic": 8,
+                    "prob": 0.18333
+                },
+                {
+                    "topic": 10,
+                    "prob": 0.18333
+                }
+            ]
+        },
+        "40t_0,1a_0,005e": {
+            "number_of_topics": 40,
+            "alpha": 0.1,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 23,
+                    "prob": 0.2625
+                },
+                {
+                    "topic": 36,
+                    "prob": 0.1375
+                },
+                {
+                    "topic": 4,
+                    "prob": 0.1375
+                }
+            ]
+        },
+        "5t_0,1a_0,01e": {
+            "number_of_topics": 5,
+            "alpha": 0.1,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.91111
+                }
+            ]
+        },
+        "10t_0,1a_0,01e": {
+            "number_of_topics": 10,
+            "alpha": 0.1,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 7,
+                    "prob": 0.62
+                },
+                {
+                    "topic": 3,
+                    "prob": 0.22
+                }
+            ]
+        },
+        "20t_0,1a_0,01e": {
+            "number_of_topics": 20,
+            "alpha": 0.1,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 17,
+                    "prob": 0.51667
+                },
+                {
+                    "topic": 0,
+                    "prob": 0.18333
+                }
+            ]
+        },
+        "40t_0,1a_0,01e": {
+            "number_of_topics": 40,
+            "alpha": 0.1,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.2625
+                },
+                {
+                    "topic": 22,
+                    "prob": 0.1375
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.1375
+                }
+            ]
+        },
+        "5t_0,1a_0,05e": {
+            "number_of_topics": 5,
+            "alpha": 0.1,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 2,
+                    "prob": 0.91111
+                }
+            ]
+        },
+        "10t_0,1a_0,05e": {
+            "number_of_topics": 10,
+            "alpha": 0.1,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 1,
+                    "prob": 0.62
+                },
+                {
+                    "topic": 0,
+                    "prob": 0.22
+                }
+            ]
+        },
+        "20t_0,1a_0,05e": {
+            "number_of_topics": 20,
+            "alpha": 0.1,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 17,
+                    "prob": 0.51667
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.18333
+                }
+            ]
+        },
+        "40t_0,1a_0,05e": {
+            "number_of_topics": 40,
+            "alpha": 0.1,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 16,
+                    "prob": 0.2625
+                },
+                {
+                    "topic": 23,
+                    "prob": 0.1375
+                },
+                {
+                    "topic": 5,
+                    "prob": 0.1375
+                }
+            ]
+        },
+        "5t_0,1a_0,1e": {
+            "number_of_topics": 5,
+            "alpha": 0.1,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 1,
+                    "prob": 0.91111
+                }
+            ]
+        },
+        "10t_0,1a_0,1e": {
+            "number_of_topics": 10,
+            "alpha": 0.1,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 5,
+                    "prob": 0.62
+                },
+                {
+                    "topic": 3,
+                    "prob": 0.22
+                }
+            ]
+        },
+        "20t_0,1a_0,1e": {
+            "number_of_topics": 20,
+            "alpha": 0.1,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 14,
+                    "prob": 0.51667
+                },
+                {
+                    "topic": 3,
+                    "prob": 0.18333
+                }
+            ]
+        },
+        "40t_0,1a_0,1e": {
+            "number_of_topics": 40,
+            "alpha": 0.1,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 23,
+                    "prob": 0.3875
+                },
+                {
+                    "topic": 6,
+                    "prob": 0.1375
+                }
+            ]
+        },
+        "5t_0,5a_0,005e": {
+            "number_of_topics": 5,
+            "alpha": 0.5,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.23077
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.23077
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.23077
+                },
+                {
+                    "topic": 3,
+                    "prob": 0.23077
+                }
+            ]
+        },
+        "10t_0,5a_0,005e": {
+            "number_of_topics": 10,
+            "alpha": 0.5,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 1,
+                    "prob": 0.27778
+                },
+                {
+                    "topic": 7,
+                    "prob": 0.27778
+                }
+            ]
+        },
+        "20t_0,5a_0,005e": {
+            "number_of_topics": 20,
+            "alpha": 0.5,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 6,
+                    "prob": 0.17857
+                },
+                {
+                    "topic": 0,
+                    "prob": 0.10714
+                },
+                {
+                    "topic": 17,
+                    "prob": 0.10714
+                }
+            ]
+        },
+        "40t_0,5a_0,005e": {
+            "number_of_topics": 40,
+            "alpha": 0.5,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 22,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 15,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 20,
+                    "prob": 0.0625
+                }
+            ]
+        },
+        "5t_0,5a_0,01e": {
+            "number_of_topics": 5,
+            "alpha": 0.5,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 2,
+                    "prob": 0.38462
+                },
+                {
+                    "topic": 0,
+                    "prob": 0.23077
+                },
+                {
+                    "topic": 3,
+                    "prob": 0.23077
+                }
+            ]
+        },
+        "10t_0,5a_0,01e": {
+            "number_of_topics": 10,
+            "alpha": 0.5,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 7,
+                    "prob": 0.27778
+                },
+                {
+                    "topic": 0,
+                    "prob": 0.16667
+                },
+                {
+                    "topic": 4,
+                    "prob": 0.16667
+                }
+            ]
+        },
+        "20t_0,5a_0,01e": {
+            "number_of_topics": 20,
+            "alpha": 0.5,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 12,
+                    "prob": 0.17857
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.10714
+                },
+                {
+                    "topic": 13,
+                    "prob": 0.10714
+                }
+            ]
+        },
+        "40t_0,5a_0,01e": {
+            "number_of_topics": 40,
+            "alpha": 0.5,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 19,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 15,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 26,
+                    "prob": 0.0625
+                }
+            ]
+        },
+        "5t_0,5a_0,05e": {
+            "number_of_topics": 5,
+            "alpha": 0.5,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.69231
+                }
+            ]
+        },
+        "10t_0,5a_0,05e": {
+            "number_of_topics": 10,
+            "alpha": 0.5,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 4,
+                    "prob": 0.38889
+                },
+                {
+                    "topic": 0,
+                    "prob": 0.16667
+                }
+            ]
+        },
+        "20t_0,5a_0,05e": {
+            "number_of_topics": 20,
+            "alpha": 0.5,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.10714
+                },
+                {
+                    "topic": 14,
+                    "prob": 0.10714
+                },
+                {
+                    "topic": 13,
+                    "prob": 0.10714
+                },
+                {
+                    "topic": 7,
+                    "prob": 0.10714
+                }
+            ]
+        },
+        "40t_0,5a_0,05e": {
+            "number_of_topics": 40,
+            "alpha": 0.5,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 24,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 4,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 25,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 28,
+                    "prob": 0.0625
+                }
+            ]
+        },
+        "5t_0,5a_0,1e": {
+            "number_of_topics": 5,
+            "alpha": 0.5,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.53846
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.23077
+                }
+            ]
+        },
+        "10t_0,5a_0,1e": {
+            "number_of_topics": 10,
+            "alpha": 0.5,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.16667
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.16667
+                },
+                {
+                    "topic": 5,
+                    "prob": 0.16667
+                },
+                {
+                    "topic": 6,
+                    "prob": 0.16667
+                }
+            ]
+        },
+        "20t_0,5a_0,1e": {
+            "number_of_topics": 20,
+            "alpha": 0.5,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.10714
+                },
+                {
+                    "topic": 14,
+                    "prob": 0.10714
+                },
+                {
+                    "topic": 10,
+                    "prob": 0.10714
+                },
+                {
+                    "topic": 9,
+                    "prob": 0.10714
+                }
+            ]
+        },
+        "40t_0,5a_0,1e": {
+            "number_of_topics": 40,
+            "alpha": 0.5,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 28,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 31,
+                    "prob": 0.0625
+                },
+                {
+                    "topic": 20,
+                    "prob": 0.0625
+                }
+            ]
+        },
+        "5t_0,9a_0,005e": {
+            "number_of_topics": 5,
+            "alpha": 0.9,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 2,
+                    "prob": 0.34118
+                },
+                {
+                    "topic": 0,
+                    "prob": 0.22353
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.22353
+                }
+            ]
+        },
+        "10t_0,9a_0,005e": {
+            "number_of_topics": 10,
+            "alpha": 0.9,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 7,
+                    "prob": 0.22308
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.14615
+                },
+                {
+                    "topic": 5,
+                    "prob": 0.14615
+                }
+            ]
+        },
+        "20t_0,9a_0,005e": {
+            "number_of_topics": 20,
+            "alpha": 0.9,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 9,
+                    "prob": 0.13182
+                },
+                {
+                    "topic": 11,
+                    "prob": 0.08636
+                },
+                {
+                    "topic": 0,
+                    "prob": 0.08636
+                }
+            ]
+        },
+        "40t_0,9a_0,005e": {
+            "number_of_topics": 40,
+            "alpha": 0.9,
+            "eta": 0.005,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 32,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 27,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 28,
+                    "prob": 0.0475
+                }
+            ]
+        },
+        "5t_0,9a_0,01e": {
+            "number_of_topics": 5,
+            "alpha": 0.9,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 2,
+                    "prob": 0.34118
+                },
+                {
+                    "topic": 0,
+                    "prob": 0.22353
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.22353
+                }
+            ]
+        },
+        "10t_0,9a_0,01e": {
+            "number_of_topics": 10,
+            "alpha": 0.9,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 1,
+                    "prob": 0.22308
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.14615
+                },
+                {
+                    "topic": 5,
+                    "prob": 0.14615
+                }
+            ]
+        },
+        "20t_0,9a_0,01e": {
+            "number_of_topics": 20,
+            "alpha": 0.9,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 10,
+                    "prob": 0.13182
+                },
+                {
+                    "topic": 0,
+                    "prob": 0.08636
+                },
+                {
+                    "topic": 14,
+                    "prob": 0.08636
+                }
+            ]
+        },
+        "40t_0,9a_0,01e": {
+            "number_of_topics": 40,
+            "alpha": 0.9,
+            "eta": 0.01,
+            "topics": [
+                {
+                    "topic": 1,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 22,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 23,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 28,
+                    "prob": 0.0475
+                }
+            ]
+        },
+        "5t_0,9a_0,05e": {
+            "number_of_topics": 5,
+            "alpha": 0.9,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.22353
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.22353
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.22353
+                },
+                {
+                    "topic": 3,
+                    "prob": 0.22353
+                }
+            ]
+        },
+        "10t_0,9a_0,05e": {
+            "number_of_topics": 10,
+            "alpha": 0.9,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 8,
+                    "prob": 0.3
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.14615
+                }
+            ]
+        },
+        "20t_0,9a_0,05e": {
+            "number_of_topics": 20,
+            "alpha": 0.9,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.08636
+                },
+                {
+                    "topic": 14,
+                    "prob": 0.08636
+                },
+                {
+                    "topic": 12,
+                    "prob": 0.08636
+                },
+                {
+                    "topic": 7,
+                    "prob": 0.08636
+                }
+            ]
+        },
+        "40t_0,9a_0,05e": {
+            "number_of_topics": 40,
+            "alpha": 0.9,
+            "eta": 0.05,
+            "topics": [
+                {
+                    "topic": 30,
+                    "prob": 0.0725
+                },
+                {
+                    "topic": 0,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 36,
+                    "prob": 0.0475
+                }
+            ]
+        },
+        "5t_0,9a_0,1e": {
+            "number_of_topics": 5,
+            "alpha": 0.9,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 3,
+                    "prob": 0.45882
+                },
+                {
+                    "topic": 1,
+                    "prob": 0.22353
+                }
+            ]
+        },
+        "10t_0,9a_0,1e": {
+            "number_of_topics": 10,
+            "alpha": 0.9,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 4,
+                    "prob": 0.22308
+                },
+                {
+                    "topic": 0,
+                    "prob": 0.14615
+                },
+                {
+                    "topic": 5,
+                    "prob": 0.14615
+                }
+            ]
+        },
+        "20t_0,9a_0,1e": {
+            "number_of_topics": 20,
+            "alpha": 0.9,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 0,
+                    "prob": 0.08636
+                },
+                {
+                    "topic": 17,
+                    "prob": 0.08636
+                },
+                {
+                    "topic": 12,
+                    "prob": 0.08636
+                },
+                {
+                    "topic": 10,
+                    "prob": 0.08636
+                }
+            ]
+        },
+        "40t_0,9a_0,1e": {
+            "number_of_topics": 40,
+            "alpha": 0.9,
+            "eta": 0.1,
+            "topics": [
+                {
+                    "topic": 32,
+                    "prob": 0.0725
+                },
+                {
+                    "topic": 2,
+                    "prob": 0.0475
+                },
+                {
+                    "topic": 23,
+                    "prob": 0.0475
+                }
+            ]
+        }
+    }
+}
