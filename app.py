@@ -1192,7 +1192,6 @@ class UpdatePhraseModel(BaseModel):
         json_encoders = {ObjectId: str}
         schema_extra = {
             "example":  {
-                "_id": 0,
                 "txt_id": 6,
                 "path": "./pdf/0001/0001008v3.tei.xml",
                 "phrase": "this is the traditional machine learning problem.",
@@ -2321,56 +2320,56 @@ class UpdatePhraseModel(BaseModel):
 
 
 
-@app.post("/", response_description="Add new student", response_model=PhraseModel)
-async def create_student(student: PhraseModel = Body(...)):
-    student = jsonable_encoder(student)
-    new_student = await db["phrases"].insert_one(student)
-    created_student = await db["phrases"].find_one({"_id": new_student.inserted_id})
-    return JSONResponse(status_code=status.HTTP_201_CREATED, content=created_student)
+@app.post("/", response_description="Add new phrase", response_model=PhraseModel)
+async def create_phrase(phrase: PhraseModel = Body(...)):
+    phrase = jsonable_encoder(phrase)
+    new_phrase = await db["phrases"].insert_one(phrase)
+    created_phrase = await db["phrases"].find_one({"_id": new_phrase.inserted_id})
+    return JSONResponse(status_code=status.HTTP_201_CREATED, content=created_phrase)
 
 
 @app.get(
     "/", response_description="List all phrases", response_model=List[PhraseModel]
 ) 
-async def list_phrases():
-    phrases = await db["phrases"].find().to_list(1000)
+async def list_phrases(skip: int = 0, limit: int = 10):
+    phrases = await db["phrases"].find(skip=skip).to_list(limit)
     return phrases
 
 
 @app.get(
-    "/{id}", response_description="Get a single student", response_model=PhraseModel
+    "/{id}", response_description="Get a single phrase", response_model=PhraseModel
 )
-async def show_student(id: str):
-    if (student := await db["phrases"].find_one({"_id": id})) is not None:
-        return student
+async def show_phrase(id: int):
+    if (phrase := await db["phrases"].find_one({"_id": id})) is not None:
+        return phrase
 
-    raise HTTPException(status_code=404, detail=f"Student {id} not found")
+    raise HTTPException(status_code=404, detail=f"phrase {id} not found")
 
 
-@app.put("/{id}", response_description="Update a student", response_model=PhraseModel)
-async def update_student(id: str, student: UpdatePhraseModel = Body(...)):
-    student = {k: v for k, v in student.dict().items() if v is not None}
+@app.put("/{id}", response_description="Update a phrase", response_model=PhraseModel)
+async def update_phrase(id: int, phrase: UpdatePhraseModel = Body(...)):
+    phrase = {k: v for k, v in phrase.dict().items() if v is not None}
 
-    if len(student) >= 1:
-        update_result = await db["phrases"].update_one({"_id": id}, {"$set": student})
+    if len(phrase) >= 1:
+        update_result = await db["phrases"].update_one({"_id": id}, {"$set": phrase})
 
         if update_result.modified_count == 1:
             if (
-                updated_student := await db["phrases"].find_one({"_id": id})
+                updated_phrase := await db["phrases"].find_one({"_id": id})
             ) is not None:
-                return updated_student
+                return updated_phrase
 
-    if (existing_student := await db["phrases"].find_one({"_id": id})) is not None:
-        return existing_student
+    if (existing_phrase := await db["phrases"].find_one({"_id": id})) is not None:
+        return existing_phrase
 
-    raise HTTPException(status_code=404, detail=f"Student {id} not found")
+    raise HTTPException(status_code=404, detail=f"phrase {id} not found")
 
 
-@app.delete("/{id}", response_description="Delete a student")
-async def delete_student(id: str):
+@app.delete("/{id}", response_description="Delete a phrase")
+async def delete_phrase(id: str):
     delete_result = await db["phrases"].delete_one({"_id": id})
 
     if delete_result.deleted_count == 1:
         return Response(status_code=status.HTTP_204_NO_CONTENT)
 
-    raise HTTPException(status_code=404, detail=f"Student {id} not found")
+    raise HTTPException(status_code=404, detail=f"phrase {id} not found")
