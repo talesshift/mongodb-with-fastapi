@@ -12,6 +12,7 @@ import optional_model
 app = FastAPI()
 client = motor.motor_asyncio.AsyncIOMotorClient(os.environ["MONGODB_URL"])
 db1 = client.arxiv_LDA_MATRIX_LAST
+db2 = client.ALL_PHRASES_ARXIV2
 
 
 class PyObjectId(ObjectId):
@@ -29,13 +30,56 @@ class PyObjectId(ObjectId):
     def __modify_schema__(cls, field_schema):
         field_schema.update(type="string")
 
+class AllPhrasesModel(BaseModel):
+    field_id: int = Field(..., alias='_id')
+    txt_id: int = Field(...)
+    path: str = Field(...)
+    phrase: str = Field(...)
+    lenght: int = Field(...)
+    section: str = Field(...)
+
+    class Config:
+        allow_population_by_field_name = True
+        arbitrary_types_allowed = True
+        json_encoders = {ObjectId: str}
+        schema_extra = {
+            "example":  {
+                    "_id": 300300300,
+                    "txt_id": 0,
+                    "path": "./pdf/0001/0001001v1.tei.xml",
+                    "phrase": "currently the quantum information science exists mainly as theoretical area of research and size of quantum registers does not exceed of 3-5 quantum bits (qubits), but in the paper is considered question: does the quantum logic has some useful application as an abstract mathematical model in computer science?",
+                    "lenght": 310,
+                    "section": "text"
+                }
+        }
+        
+class UpdateAllPhrasesModel(BaseModel):
+    txt_id: Optional[int] 
+    path: Optional[str] 
+    phrase: Optional[str] 
+    lenght: Optional[int] 
+    section: Optional[str] 
+
+    class Config:
+        allow_population_by_field_name = True
+        arbitrary_types_allowed = True
+        json_encoders = {ObjectId: str}
+        schema_extra = {
+            "example":  {
+                    "txt_id": 0,
+                    "path": "./pdf/0001/0001001v1.tei.xml",
+                    "phrase": "currently the quantum information science exists mainly as theoretical area of research and size of quantum registers does not exceed of 3-5 quantum bits (qubits), but in the paper is considered question: does the quantum logic has some useful application as an abstract mathematical model in computer science?",
+                    "lenght": 310,
+                    "section": "text"
+                }
+        }
+
 class WordProbability1(BaseModel):
     word: str
     prob: float
 
-
 class WordProbability(BaseModel):
-    _id: int
+    field_id: int = Field(..., alias='_id')
     word_probabilities: List[WordProbability1]
 
 class TopicModel(BaseModel):
@@ -53837,3 +53881,41 @@ async def update_topic(id: int, topic: UpdateTopicModel = Body(...)):
         return existing_topic
 
     raise HTTPException(status_code=404, detail=f"topic {id} not found")
+
+#all_phrases
+
+@app.get(
+    "/all_phrases/", response_description="List all all_phrases", response_model=List[AllPhrasesModel]
+) 
+async def list_all_phrases(skip: int = 0, limit: int = 10):
+    all_phrases = await db2["all_phrases"].find(skip=skip).to_list(limit)
+    return all_phrases
+
+
+@app.get(
+    "/all_phrases/{id}", response_description="Get a single all_phrase", response_model=AllPhrasesModel
+)
+async def show_all_phrase(id: int):
+    if (all_phrase := await db2["all_phrases"].find_one({"_id": id})) is not None:
+        return all_phrase
+
+    raise HTTPException(status_code=404, detail=f"all_phrase {id} not found")
+
+
+@app.put("/all_phrases/{id}", response_description="Update a all_phrase", response_model=AllPhrasesModel)
+async def update_all_phrase(id: int, all_phrase: UpdateAllPhrasesModel = Body(...)):
+    all_phrase = {k: v for k, v in all_phrase.dict().items() if v is not None}
+
+    if len(all_phrase) >= 1:
+        update_result = await db2["all_phrases"].update_one({"_id": id}, {"$set": all_phrase})
+
+        if update_result.modified_count == 1:
+            if (
+                updated_all_phrase := await db2["all_phrases"].find_one({"_id": id})
+            ) is not None:
+                return updated_all_phrase
+
+    if (existing_all_phrase := await db2["all_phrases"].find_one({"_id": id})) is not None:
+        return existing_all_phrase
+
+    raise HTTPException(status_code=404, detail=f"all_phrase {id} not found")
